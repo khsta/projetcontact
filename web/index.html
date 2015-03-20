@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Examples in Dart</title>
+    <link rel="stylesheet" href="css/link.css"/>
+    <link rel="stylesheet" href="css/table.css"/>
+  </head>
+ 
+  <body>
+  <table>
+    <caption>Contact</caption> 
+    <tr><td> Nom :</td><td><input id="nom-input" type="text" size="16"/></td></tr>
+     <tr><td>Prenom :</td><td><input id="prenom-input" type="text" size="16"/></td></tr>
+      <tr><td>Email :</td><td><input id="email-input" type="email" size="56" required/></td></tr>
+       <tr><td>Téléphone </td><td><input id="telephone-input" type="text" size="16"/>  </td></tr>   
+    
+    <tr><td colspan=2><button id="ajouter-contact" class="button">Ajouter</button></td></tr>
+    
+   
+    
+    
+    </table>
+    
+    
+    <table id="contact-table" width="560"></table>
+    <button id="effacer-contacts" class="button">Vider</button>
+    <button id="charger-contacts" class="button">Charger</button>
+    <button id="enregistrer-contacts" class="button">Enregistrer le tableau</button>
+    <script type="application/dart" src="index.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

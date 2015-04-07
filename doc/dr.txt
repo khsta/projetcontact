@@ -1,0 +1,12 @@
+ex06
+
+18/20
+
+(-1)
+.gitignore ?
+
+Ajouter utilisé pour Modifier?
+
+(-1)
+un contact vide est valide?
+pas de validations
